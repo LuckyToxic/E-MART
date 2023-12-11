@@ -12,15 +12,12 @@ header{
     margin: auto;
     background-image: url("./img/bg_header.svg");
     
-    
-
     & .menu_bar{
         width: 165px;
         height: 810px;
         background-color: #002A32;
+        position: relative;
         
-        
-
         & .logo{
             position: relative;
             top: 19px;
@@ -36,7 +33,7 @@ header{
             align-items: center;
             text-decoration: none;
             color: #8999A1;
-            
+           
             & img{
                 padding-bottom: 10px;
             }
@@ -44,6 +41,48 @@ header{
         & a:hover{
             background-color: #3C6C7F;
         }
+    }        
+    
+
+    & .group_up{
+        width: 1015px;
+        height: 25px;
+        position: absolute;
+        top: 28px;
+        left: 430px;
+        display: flex;
+        justify-content: space-between;
+
+            & a{
+                text-decoration: none;
+                color: #3E5860;
+            }
+
+            & span{
+                color: #DD6060;
+                font-size: 8px;
+            }
             
+            & .group1{
+                width: 207px;
+                display: flex;
+                justify-content: space-between;
+                
+                    & img{
+                        padding-left: 13px;
+                    }
+            }
+            
+            & .group2{
+                width: 399px;
+                height: 18px;
+                display: flex;
+                justify-content: space-between;
+
+                & img{
+                    padding-right: 14px;
+                }
+            }
+        
     }
 }
